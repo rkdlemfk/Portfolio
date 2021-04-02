@@ -369,9 +369,9 @@ body {
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   overflow: hidden;
 }
-.about-intro--archive:first-child {
+/*.about-intro--archive:first-child {
   margin-right: 60px;
-}
+}*/
 .about-intro--ico {
   position: relative;
   display: inline-block;
@@ -381,15 +381,16 @@ body {
 .about-intro--archive:first-child .about-intro--ico {
   background: url("../icons/github.png") no-repeat center/120%;
 }
-.about-intro--archive:last-child .about-intro--ico {
+/*.about-intro--archive:last-child .about-intro--ico {
   background: url("../icons/tistory.png") no-repeat center/60%;
-}
+}*/
 .about-intro--archive:first-child .about-intro--ico::after {
   content: "Github";
 }
+/*
 .about-intro--archive:last-child .about-intro--ico::after {
   content: "Blog";
-}
+}*/
 .about-intro--archive:first-child .about-intro--ico::after,
 .about-intro--archive:last-child .about-intro--ico::after {
   position: absolute;
