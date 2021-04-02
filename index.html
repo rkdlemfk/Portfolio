@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="이준호(Juno)" />
+    <meta
+      name="description"
+      content="프론트엔드 개발자 이준호의 포트폴리오 사이트입니다."
+    />
+    <title>Juno's Portfolio</title>
+    <link rel="preload" href="assets/images/landing-img.jpg" as="image" />
+    <link
+      rel="preload"
+      href="assets/fonts/SpoqaHanSansNeo-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/SpoqaHanSansNeo-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/SpoqaHanSansNeo-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/src/main.js" defer></script>
+  </head>
+  <body>
+    <div class="loading"><span class="loading-text">Loading ...</span></div>
+    <header class="header">
+      <h1 class="header__title">
+        <a class="header__title--link" href="#" title="Juno's Portfolio"
+          >Juno's Portfolio</a
+        >
+      </h1>
+      <span class="gnb">
+        <a class="gnb-btn" href="#none" title="메뉴 버튼"
+          ><svg
+            class="gnb-menu"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            fill="#000"
+            width="24"
+            height="24"
+          >
+            <title>메뉴 열기</title>
+            <path
+              d="M16 224h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm416 192H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm3.17-384H172.83A12.82 12.82 0 0 0 160 44.83v38.34A12.82 12.82 0 0 0 172.83 96h262.34A12.82 12.82 0 0 0 448 83.17V44.83A12.82 12.82 0 0 0 435.17 32zm0 256H172.83A12.82 12.82 0 0 0 160 300.83v38.34A12.82 12.82 0 0 0 172.83 352h262.34A12.82 12.82 0 0 0 448 339.17v-38.34A12.82 12.82 0 0 0 435.17 288z"
+            />
+          </svg>
+          <svg
+            class="gnb-close hide"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="#000"
+            width="24"
+            height="24"
+          >
+            <title>메뉴 닫기</title>
+            <path
+              d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+            />
+          </svg>
+        </a>
+      </span>
+      <nav class="header__container">
+        <ul class="header__container--items">
+          <li class="header__container--items__item active">
+            <a
+              class="header__container--items__item--link"
+              href="#home"
+              title="HOME"
+              >HOME</a
+            >
+          </li>
+          <li class="header__container--items__item">
+            <a
+              class="header__container--items__item--link"
+              href="#about"
+              title="ABOUT ME"
+              >ABOUT ME</a
+            >
+          </li>
+          <li class="header__container--items__item">
+            <a
+              class="header__container--items__item--link"
+              href="#portfolio"
+              title="PORTFOLIO"
+              >PORTFOLIO</a
+            >
+          </li>
+          <li class="header__container--items__item">
+            <a
+              class="header__container--items__item--link"
+              href="#contact"
+              title="CONTACT ME"
+              >CONTACT ME</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section id="home">
+        <h2 class="home--title">프론트엔드 개발자 이준호입니다.</h2>
+        <p class="home__desc">
+          저는&nbsp;
+          <span class="home__sub">
+            <span class="home__sub--contents">
+              <span class="home__sub--content">성과를 보여주는</span>
+              <span class="home__sub--content">성장을 기록하며</span>
+              <span class="home__sub--content">꾸준히 성장하고</span>
+            </span>
+          </span>
+          &nbsp;꿈을 이루는 개발자입니다.
+        </p>
+        <span class="home__scroll">Down !</span>
+      </section>
+      <section id="about">
+        <article class="about-intro">
+          <h2 class="about-intro--title">ABOUT ME</h2>
+          <p class="about-intro--info">
+            이준호(Male) <br />1995.02.17(+)<br />(Mobile) 010-4830-9376<br />akfncl217@daum.net
+          </p>
+          <p class="about-intro--content">
+            안녕하세요. 프론트엔드 개발자 이준호입니다.<br /><br />
+            저는 프론트엔드 개발자로 시작하고자 공부를 해오고있습니다. 지난 몇
+            년 동안 3D 프린팅분야에서 강사로 활동하였습니다.
+            <br /><br />
+            새로운 지식을 배우며, 타인과 함께 공유하고 성장하던 청년은 생활 속에
+            좋은 영향을 끼칠 수 있는 개발자가 되고자합니다.
+          </p>
+          <div class="about-intro--archives">
+            <div class="about-intro--archive">
+              <a
+                class="about-intro--ico"
+                href="https://github.com/baegofda"
+                title="깃허브 링크"
+                target="blank"
+              >
+              </a>
+            </div>
+            <div class="about-intro--archive">
+              <a
+                class="about-intro--ico"
+                href="https://baegofda.tistory.com/"
+                title="블로그 링크"
+                target="blank"
+              >
+              </a>
+            </div>
+          </div>
+        </article>
+        <span class="about-line"></span>
+        <article class="about-skils">
+          <h2 class="about-skils--title">SKILS</h2>
+          <ul class="about-skils--contents">
+            <li class="about-skils--content">
+              <p class="about-skils--category">Languages</p>
+              <p class="about-skils--tool">HTML, CSS, Javascript</p>
+            </li>
+            <li class="about-skils--content">
+              <p class="about-skils--category">Tools</p>
+              <p class="about-skils--tool">
+                React, CSS module, Nodejs(Expressjs), Postman
+              </p>
+            </li>
+            <li class="about-skils--content">
+              <p class="about-skils--category">+</p>
+              <p class="about-skils--tool">반응형웹, Oracle, git</p>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="portfolio">
+        <h2 class="portfolio--title">PORTFOLIO</h2>
+        <article class="portfolio__project">
+          <h3 class="portfolio__project--title">포트폴리오 웹사이트</h3>
+          <div class="portfolio__project__contents">
+            <img
+              class="portfolio__project__contents--img"
+              src="assets/images/portfolio.gif"
+              alt="Portfolio Preview"
+            />
+            <div class="portfolio__project__contents__content">
+              <p class="portfolio__project__contents__content--desc">
+                현재 방문하고계신 포트폴리오용 사이트입니다. <br />
+                <span class="inline">HTML</span>
+                과
+                <span class="inline">CSS</span>,
+                <span class="inline">Javascript</span>로 구축되었습니다.
+              </p>
+              <div class="portfolio__project__contents__links">
+                <a
+                  href="https://github.com/baegofda/Portfolio"
+                  class="portfolio__project__contents__links--link"
+                  title="Portfolio 코드보기"
+                  target="blank"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="portfolio__project">
+          <h3 class="portfolio__project--title">Porject GOC</h3>
+          <div class="portfolio__project__contents">
+            <img
+              class="portfolio__project__contents--img"
+              src="assets/images/projectGOC.gif"
+              alt="porjectGOC Preview"
+            />
+            <div class="portfolio__project__contents__content">
+              <p class="portfolio__project__contents__content--desc">
+                국내외 코로나 통계를 확인할 수 있는 React기반 웹사이트 입니다.
+                공공데이터포털, 네이버, 카카오, 해외 등의 여러 API를 통해
+                데이터를 제공하고 있습니다. <span class="inline">React</span>와
+                <span class="inline">Expressjs</span>로 개발을 진행하였으며
+                <span class="inline">Nelify</span>와
+                <span class="inline">heroku</span>서버로 호스팅을 하였습니다.<br />
+                이후 피드백을 얻어보고자
+                <a
+                  href="https://okky.kr/article/891152?note=2278595"
+                  class="portfolio__project__contents__content--link"
+                  title="okky 커뮤니티 확인하기"
+                  target="blank"
+                  >okky 커뮤니티</a
+                >에 글을 올렸고 피드백을 통해 개발단계에서는 발견하지 못한 오류,
+                버그등을 수정 할 수 있었습니다.
+              </p>
+              <div class="portfolio__project__contents__links">
+                <a
+                  href="https://github.com/baegofda/Project-GOC"
+                  class="portfolio__project__contents__links--link"
+                  title="Porject GOC 코드보기"
+                  target="blank"
+                  >View Code</a
+                ><a
+                  href="https://project-goc.netlify.app/"
+                  class="portfolio__project__contents__links--link"
+                  title="Porject GOC 방문하기"
+                  target="blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="portfolio__project">
+          <h3 class="portfolio__project--title">Porject Momen</h3>
+          <div class="portfolio__project__contents">
+            <img
+              class="portfolio__project__contents--img"
+              src="assets/images/projectMomen.gif"
+              alt="porject Momen Preview"
+            />
+            <div class="portfolio__project__contents__content">
+              <p class="portfolio__project__contents__content--desc">
+                구글 Extension중 momentum 클론사이트입니다. 위치기반으로한
+                날씨데이터와 todolist 기능을 제공합니다.
+                <span class="inline">HTML</span>
+                과
+                <span class="inline">CSS</span>,
+                <span class="inline">Javascript</span>로 구축되었으며
+                <span class="inline">Local Storage</span>를 이용한 데이터 저장을
+                하고 있습니다.
+              </p>
+              <div class="portfolio__project__contents__links">
+                <a
+                  href="https://github.com/baegofda/Project-Momen"
+                  class="portfolio__project__contents__links--link"
+                  title="porject Momen 코드보기"
+                  target="blank"
+                  >View Code</a
+                ><a
+                  href="https://baegofda.github.io/Project-Momen/"
+                  class="portfolio__project__contents__links--link"
+                  title="porject Momen 방문하기"
+                  target="blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="portfolio__project">
+          <h3 class="portfolio__project--title">Porject Carrot</h3>
+          <div class="portfolio__project__contents">
+            <img
+              class="portfolio__project__contents--img"
+              src="assets/images/carrot.gif"
+              alt="Porject Carrot Preview"
+            />
+            <div class="portfolio__project__contents__content">
+              <p class="portfolio__project__contents__content--desc">
+                개발을 배우기위해 학원을 다닌지 2달쯤 시작했던 프로젝트입니다.
+                UI담당을 하였고 당근마켓을 모티브로한 플랫폼입니다.
+                <span class="inline">HTML</span>
+                과
+                <span class="inline">CSS</span>,
+                <span class="inline">Javascript</span>과 Spring을 이용한
+                프로젝트였습니다.
+              </p>
+              <div class="portfolio__project__contents__links">
+                * 호스팅등은 되지 않았습니다.
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer id="contact">
+      <h2 class="contact--title">CONTACT ME</h2>
+      <address class="contact--infos">
+        <p class="contact--info">
+          Email :
+          <a
+            class="contact--link"
+            href="mailto:akfncl217@daum.net"
+            title="akfncl217@daum.net"
+          >
+            akfncl217@daum.net
+          </a>
+        </p>
+        <p class="contact--info">
+          Mobile :
+          <a
+            class="contact--link"
+            href="tel:010-4830-9376"
+            title="010-4830-9376"
+            >010-4830-9376</a
+          >
+        </p>
+        <p class="contact--info">
+          이력서 :
+          <a
+            class="contact--link"
+            href="assets/images/resume.pdf"
+            target="blank"
+          >
+            이력서 확인하기
+          </a>
+        </p>
+        <p class="contact--info">Copyright © 2021. Juno All rights reserved.</p>
+      </address>
+    </footer>
+  </body>
+</html>
